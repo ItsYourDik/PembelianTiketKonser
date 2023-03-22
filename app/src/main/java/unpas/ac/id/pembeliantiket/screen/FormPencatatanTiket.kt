@@ -77,7 +77,7 @@ fun FormPencatatanTiket(pembelianTiketDao: PembelianTiketDao) {
             modifier = Modifier.padding(4.dp).fillMaxWidth(),
             keyboardOptions = KeyboardOptions(keyboardType =
             KeyboardType.Decimal),
-            placeholder = { Text(text = "DD/MM/YYYY") }
+            placeholder = { Text(text = "DD-MM-YYYY") }
         )
         OutlinedTextField(
             label = { Text(text = "Harga") },
