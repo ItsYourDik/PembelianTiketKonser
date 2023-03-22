@@ -45,6 +45,11 @@ fun FormPencatatanTiket(pembelianTiketDao: PembelianTiketDao) {
     Column(modifier = Modifier
         .padding(10.dp)
         .fillMaxWidth()) {
+        Text(text = "Daftar Pembelian Tiket Konser", style = TextStyle(
+            fontSize = 18.sp,
+            fontWeight = FontWeight.Bold
+        )
+            ,modifier = Modifier.padding(2.dp))
         OutlinedTextField(
             label = { Text(text = "Nama") },
             value = nama.value,
